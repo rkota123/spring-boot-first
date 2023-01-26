@@ -22,8 +22,4 @@ public class EmpController {
         return message;
     }
 
-    private void test(){
-        System.out.println("TEST 111");
-    }
-
 }
