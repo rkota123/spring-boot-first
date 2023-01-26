@@ -17,7 +17,7 @@ app:
 
 
 management:
-  endpoins:
+  endpoitns:
     web:
       exposure:
         include: "*"
