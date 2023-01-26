@@ -1,0 +1,26 @@
+
+
+server:
+  port: 8081
+
+spring:
+  profiles:
+    acive: dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/test1
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: root
+  jpa:
+    hibernate:
+     ddl-auto: update
+    show-sql: true
+
+app:
+  message: welcome!
+
+management:
+  endpoin:
+    web:
+      exposure:
+        include: "*"
