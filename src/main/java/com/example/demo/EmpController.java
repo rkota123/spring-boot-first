@@ -21,4 +21,9 @@ public class EmpController {
         System.out.println("name ...." + message);
         return message;
     }
+
+    private void test(){
+        System.out.println("TEST 111");
+    }
+
 }
